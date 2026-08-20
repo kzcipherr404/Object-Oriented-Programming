@@ -21,6 +21,7 @@ public class Oop {
         };
 
         for (Person person : people) {
+            System.out.println(person.name.toUpperCase());
             person.introduce();
         }
     }
