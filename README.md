@@ -13,8 +13,8 @@ Practical coursework, laboratory implementations, and automated unit test suites
 | Week | Core Focus | Concepts Covered | Key Implementations |
 | :--- | :--- | :--- | :--- |
 | **Week 1** | **OOP Foundations** | Procedural vs. Object-Oriented paradigms, classes, instances, encapsulation basics. | `Hello.java`, `Procedural.java`, `Oop.java` (`Person`) |
-| **Week 2** | **Encapsulation & Testing** | Constructors, instance state, Maven project structure, automated testing with JUnit 5. | `BankAccount`, `Student`, `BankAccountTest`, `StudentTest` |
-| **Week 3** | **Memory Model & Debugging** | Stack vs. Heap allocation, primitives vs. references, object aliasing, `null` safety checks, and step-through debugging. | `MemoryDemo`, `AccountManager`, `DebugDemo`, `MemoryDemoTest` |
+| **Week 2** | **BLUEPRINTS, OBJECTS & YOUR FIRST TEST** | Constructors, instance state, Maven project structure, automated testing with JUnit 5. | `BankAccount`, `Student`, `BankAccountTest`, `StudentTest` |
+| **Week 3** | **OBJECTS IN MEMORY, NULLS & BUG FIXING** | Stack vs. Heap allocation, primitives vs. references, object aliasing, `null` safety checks, and step-through debugging. | `MemoryDemo`, `AccountManager`, `DebugDemo`, `MemoryDemoTest` |
 
 ---
 
