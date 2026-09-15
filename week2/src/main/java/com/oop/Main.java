@@ -4,6 +4,9 @@ public class Main {
     public static void main(String[] args) {
         BankAccount jacobsAccount = new BankAccount();
         BankAccount useAccount = new BankAccount();
+        BankAccount copyAcc = jacobsAccount;
+        
+        System.out.println(jacobsAccount == copyAcc);
         System.out.println(jacobsAccount == useAccount);
 
         jacobsAccount.accountHolder = "Jacob";

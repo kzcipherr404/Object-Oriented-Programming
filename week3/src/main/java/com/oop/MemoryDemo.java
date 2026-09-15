@@ -27,6 +27,11 @@ public class MemoryDemo {
             System.out.println("Account not found");
         }
 
+        BankAccount jacobsAccount = new BankAccount();
+        jacobsAccount.deposit(500);
+        jacobsAccount.balance = -9999;
+        System.out.println(jacobsAccount.balance);
+        
     }
 
     public static void applyBonusToAccount(BankAccount acc) {
@@ -37,3 +42,4 @@ public class MemoryDemo {
         amount = amount + 100;
     }
 }
+
