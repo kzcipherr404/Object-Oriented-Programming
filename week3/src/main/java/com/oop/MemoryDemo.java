@@ -17,21 +17,22 @@ public class MemoryDemo {
         System.out.println("acc1: " + acc1.balance);
         System.out.println("acc2: " + acc2.balance);
 
+        BankAccount myAccount = new BankAccount();
+        myAccount.balance = 500;
+        applyBonusToAccount(myAccount);
+        System.out.println("myAccount: " + myAccount.balance);
+
+        int cash = 500;
+        applyBonusToAmount(cash);
+        System.out.println("cash: " + cash);
+
         BankAccount acc3 = null;
 
         if (acc3 != null) {
             System.out.println(acc3.balance);
-        }
-
-        else {
+        } else {
             System.out.println("Account not found");
         }
-
-        BankAccount jacobsAccount = new BankAccount();
-        jacobsAccount.deposit(500);
-        jacobsAccount.balance = -9999;
-        System.out.println(jacobsAccount.balance);
-        
     }
 
     public static void applyBonusToAccount(BankAccount acc) {
